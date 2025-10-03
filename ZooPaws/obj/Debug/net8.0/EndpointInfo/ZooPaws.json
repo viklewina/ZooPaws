@@ -1,0 +1,660 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ZooPaws",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ВакцинацииПитомцев": {
+        "type": "object",
+        "properties": {
+          "idВакцинации": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПитомца": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idВакцины": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idКлиники": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаВакцинации": {
+            "type": "string",
+            "format": "date"
+          },
+          "примечания": {
+            "type": "string",
+            "nullable": true
+          },
+          "idВакциныNavigation": {
+            "$ref": "#/components/schemas/Вакцины"
+          },
+          "idКлиникиNavigation": {
+            "$ref": "#/components/schemas/ВетеринарныеКлиники"
+          },
+          "idПитомцаNavigation": {
+            "$ref": "#/components/schemas/Питомцы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Вакцины": {
+        "type": "object",
+        "properties": {
+          "idВакцины": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеВакцины": {
+            "type": "string",
+            "nullable": true
+          },
+          "описаниеВакцины": {
+            "type": "string",
+            "nullable": true
+          },
+          "периодичностьМесяцы": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "вакцинацииПитомцевs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВакцинацииПитомцев"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ВетеринарныеВизиты": {
+        "type": "object",
+        "properties": {
+          "idВизита": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПитомца": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idВетеринара": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idКлиники": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаВизита": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "причина": {
+            "type": "string",
+            "nullable": true
+          },
+          "диагноз": {
+            "type": "string",
+            "nullable": true
+          },
+          "лечение": {
+            "type": "string",
+            "nullable": true
+          },
+          "стоимость": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "рекомендации": {
+            "type": "string",
+            "nullable": true
+          },
+          "idКлиникиNavigation": {
+            "$ref": "#/components/schemas/ВетеринарныеКлиники"
+          },
+          "idПитомцаNavigation": {
+            "$ref": "#/components/schemas/Питомцы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ВетеринарныеКлиники": {
+        "type": "object",
+        "properties": {
+          "idКлиники": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "название": {
+            "type": "string",
+            "nullable": true
+          },
+          "адрес": {
+            "type": "string",
+            "nullable": true
+          },
+          "телефон": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "рейтинг": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "вакцинацииПитомцевs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВакцинацииПитомцев"
+            },
+            "nullable": true
+          },
+          "ветеринарныеВизитыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВетеринарныеВизиты"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "КатегорииУхода": {
+        "type": "object",
+        "properties": {
+          "idКатегории": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеКатегории": {
+            "type": "string",
+            "nullable": true
+          },
+          "описаниеКатегории": {
+            "type": "string",
+            "nullable": true
+          },
+          "статьиПоУходуs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/СтатьиПоУходу"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Корма": {
+        "type": "object",
+        "properties": {
+          "idКорма": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеКорма": {
+            "type": "string",
+            "nullable": true
+          },
+          "производитель": {
+            "type": "string",
+            "nullable": true
+          },
+          "типКорма": {
+            "type": "string",
+            "nullable": true
+          },
+          "возрастнаяГруппа": {
+            "type": "string",
+            "nullable": true
+          },
+          "описаниеКорма": {
+            "type": "string",
+            "nullable": true
+          },
+          "рационПитомцевs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/РационПитомцев"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Питомцы": {
+        "type": "object",
+        "properties": {
+          "idПитомца": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПороды": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "кличка": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаРождения": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "пол": {
+            "type": "string",
+            "nullable": true
+          },
+          "вес": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "датаДобавления": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "idПородыNavigation": {
+            "$ref": "#/components/schemas/Породы"
+          },
+          "вакцинацииПитомцевs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВакцинацииПитомцев"
+            },
+            "nullable": true
+          },
+          "ветеринарныеВизитыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВетеринарныеВизиты"
+            },
+            "nullable": true
+          },
+          "рационПитомцевs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/РационПитомцев"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Пользователи": {
+        "type": "object",
+        "properties": {
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "имя": {
+            "type": "string",
+            "nullable": true
+          },
+          "фамилия": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "питомцыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Питомцы"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Породы": {
+        "type": "object",
+        "properties": {
+          "idПороды": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idТипа": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеПороды": {
+            "type": "string",
+            "nullable": true
+          },
+          "странаПроисхождения": {
+            "type": "string",
+            "nullable": true
+          },
+          "размер": {
+            "type": "string",
+            "nullable": true
+          },
+          "уровеньАктивности": {
+            "type": "string",
+            "nullable": true
+          },
+          "idТипаNavigation": {
+            "$ref": "#/components/schemas/ТипыЖивотных"
+          },
+          "питомцыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Питомцы"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "РационПитомцев": {
+        "type": "object",
+        "properties": {
+          "idРациона": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПитомца": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idКорма": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "количествоВдень": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "времяКормления": {
+            "type": "string",
+            "format": "time",
+            "nullable": true
+          },
+          "idКормаNavigation": {
+            "$ref": "#/components/schemas/Корма"
+          },
+          "idПитомцаNavigation": {
+            "$ref": "#/components/schemas/Питомцы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "СтатьиПоУходу": {
+        "type": "object",
+        "properties": {
+          "idСтатьи": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idКатегории": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idТипа": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "заголовок": {
+            "type": "string",
+            "nullable": true
+          },
+          "содержание": {
+            "type": "string",
+            "nullable": true
+          },
+          "уровеньСложности": {
+            "type": "string",
+            "nullable": true
+          },
+          "idКатегорииNavigation": {
+            "$ref": "#/components/schemas/КатегорииУхода"
+          },
+          "idТипаNavigation": {
+            "$ref": "#/components/schemas/ТипыЖивотных"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ТипыЖивотных": {
+        "type": "object",
+        "properties": {
+          "idТипа": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеТипа": {
+            "type": "string",
+            "nullable": true
+          },
+          "описаниеТипа": {
+            "type": "string",
+            "nullable": true
+          },
+          "породыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Породы"
+            },
+            "nullable": true
+          },
+          "статьиПоУходуs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/СтатьиПоУходу"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

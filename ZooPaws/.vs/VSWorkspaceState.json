@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "\\BusinessLogic\\Interfaces",
+    "\\BusinessLogic\\Services",
+    "\\ClassLibrary1\\Interfaces",
+    "\\ClassLibrary1\\Models",
+    "\\ClassLibrary1\\Repositories",
+    "\\Controllers",
+    "\\Domain"
+  ],
+  "PreviewInSolutionExplorer": false
+}

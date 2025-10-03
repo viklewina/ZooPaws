@@ -1,6 +1,0 @@
-@ZooPaws_HostAddress = http://localhost:5004
-
-GET {{ZooPaws_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
