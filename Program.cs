@@ -1,4 +1,12 @@
 
+using BusinessLogic.Interfaces;
+using BusinessLogic.Services;
+using DataAccess.Models;
+using DataAccess.Wrapper;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
+
 namespace ZooPaws
 {
     public class Program
@@ -8,7 +16,11 @@ namespace ZooPaws
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddDbContext<AnimalsContext>(
+                options => options.UseSqlServer(
+                    "Server= DESKTOP-K6LFJKO ;Database= Animals ;User Id= sa ;Password= 12345 ;TrustServerCertificate= True;"));
+            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
