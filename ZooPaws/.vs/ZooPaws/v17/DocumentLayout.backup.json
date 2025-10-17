@@ -1,27 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\",
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\ZooPaws\\ZooPaws\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\m9337\\desktop\\zoopaws\\zoopaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\student\\source\\repos\\zoopaws\\zoopaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8003307D-03C2-4226-88C0-A4F1DB8577E8}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\m9337\\desktop\\zoopaws\\businesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F9247E-C7DF-4DDF-BA03-61D3717E2FB7}|..\\Domain\\Domain.csproj|c:\\users\\student\\source\\repos\\zoopaws\\domain\\models\\animalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\m9337\\desktop\\zoopaws\\zoopaws\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F9247E-C7DF-4DDF-BA03-61D3717E2FB7}|..\\Domain\\Domain.csproj|c:\\users\\student\\source\\repos\\zoopaws\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F9247E-C7DF-4DDF-BA03-61D3717E2FB7}|..\\Domain\\Domain.csproj|c:\\users\\student\\source\\repos\\zoopaws\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F9247E-C7DF-4DDF-BA03-61D3717E2FB7}|..\\Domain\\Domain.csproj|c:\\users\\student\\source\\repos\\zoopaws\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F9247E-C7DF-4DDF-BA03-61D3717E2FB7}|..\\Domain\\Domain.csproj|c:\\users\\student\\source\\repos\\zoopaws\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8003307D-03C2-4226-88C0-A4F1DB8577E8}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\student\\source\\repos\\zoopaws\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E0884-C328-4323-952F-325238D85089}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\source\\repos\\zoopaws\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E0884-C328-4323-952F-325238D85089}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\source\\repos\\zoopaws\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\student\\source\\repos\\zoopaws\\zoopaws\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6E0884-C328-4323-952F-325238D85089}|..\\DataAccess\\DataAccess.csproj|c:\\users\\m9337\\desktop\\zoopaws\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8003307D-03C2-4226-88C0-A4F1DB8577E8}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\m9337\\desktop\\zoopaws\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\m9337\\desktop\\zoopaws\\zoopaws\\zoopaws.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|c:\\users\\student\\source\\repos\\zoopaws\\zoopaws\\zoopaws.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{28236BB0-0128-454E-A736-34BD155762B7}|ZooPaws.csproj|solutionrelative:zoopaws.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m9337\\Desktop\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,8 +55,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -51,24 +79,128 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:58:37.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:55:35.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:36:52.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:30:37.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:29:40.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:29:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:26:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Models\\AnimalsContext.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\AnimalsContext.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\Domain\\Models\\AnimalsContext.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\AnimalsContext.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAqwAMBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T05:26:23.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\ZooPaws\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\ZooPaws\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T17:40:23.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ZooPaws\\ZooPaws\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\ZooPaws\\ZooPaws\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,52 +209,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Services\\UserService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:39:23.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T17:39:23.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogic\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\BusinessLogic\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\BusinessLogic\\Interfaces\\IUserService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:39:16.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T17:39:16.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "RepositoryWrapper.cs",
               "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
               "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeToolTip": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBYAAAA9AAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\m9337\\Desktop\\ZooPaws\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:38:57.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T17:38:57.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ZooPaws.csproj",
-              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\ZooPaws.csproj",
+              "DocumentMoniker": "C:\\Users\\Student\\Source\\Repos\\ZooPaws\\ZooPaws\\ZooPaws.csproj",
               "RelativeDocumentMoniker": "ZooPaws.csproj",
-              "ToolTip": "C:\\Users\\m9337\\Desktop\\ZooPaws\\ZooPaws\\ZooPaws.csproj",
+              "ToolTip": "C:\\Users\\Student\\Source\\Repos\\ZooPaws\\ZooPaws\\ZooPaws.csproj",
               "RelativeToolTip": "ZooPaws.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-03T09:26:02.214Z",
               "EditorCaption": ""

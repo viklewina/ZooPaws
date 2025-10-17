@@ -1,6 +1,5 @@
-﻿using BusinessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -13,41 +12,37 @@ namespace BusinessLogic.Services
         {
             _repositoryWrapper = repositoryWrapper;
         }
-
-        public Task<List<Пользователи>> GetAll()
+        public async Task<List<Пользователи>> GetAll()
         {
-            return _repositoryWrapper.User.FindAll().ToListAsync();
+            return await _repositoryWrapper.User.FindAll();
         }
 
-        public Task<Пользователи> GetById(int id)
+        public async Task<Пользователи> GetById(int id)
         {
-            var user = _repositoryWrapper.User
-                .FindByCondition(x => x.IdПользователя == id).First();
-            return Task.FromResult(user);
+            var user = await _repositoryWrapper.User
+                .FindByCondition(x => x.IdПользователя == id);
+            return user.First();
         }
 
-        public Task Create(Пользователи model)
+        public async Task Create(Пользователи model)
         {
-            _repositoryWrapper.User.Create(model);
+            await _repositoryWrapper.User.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(Пользователи model)
+        public async Task Update(Пользователи model)
         {
             _repositoryWrapper.User.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var user = _repositoryWrapper.User
-                .FindByCondition(x => x.IdПользователя == id).First();
+            var user = await _repositoryWrapper.User
+                .FindByCondition(x => x.IdПользователя == id);
 
-            _repositoryWrapper.User.Delete(user);
+            _repositoryWrapper.User.Delete(user.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

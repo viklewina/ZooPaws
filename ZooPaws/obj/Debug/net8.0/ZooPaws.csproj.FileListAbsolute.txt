@@ -128,3 +128,15 @@ C:\Users\m9337\Desktop\ZooPaws\ZooPaws\obj\Debug\net8.0\staticwebassets.upToDate
 C:\Users\m9337\Desktop\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.csproj.Up2Date
 C:\Users\m9337\Desktop\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.genruntimeconfig.cache
 C:\Users\m9337\Desktop\ZooPaws\ZooPaws\obj\Debug\net8.0\ref\ZooPaws.dll
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.csproj.AssemblyReference.cache
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.AssemblyInfoInputs.cache
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.AssemblyInfo.cs
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.csproj.CoreCompileInputs.cache
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.sourcelink.json
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.dll
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\refint\ZooPaws.dll
+C:\Users\Student\Source\Repos\ZooPaws\ZooPaws\obj\Debug\net8.0\ZooPaws.pdb

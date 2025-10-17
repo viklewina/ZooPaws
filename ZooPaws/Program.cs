@@ -1,5 +1,5 @@
 
-using BusinessLogic.Interfaces;
+using Domain.Interfaces;
 using BusinessLogic.Services;
 using DataAccess.Models;
 using DataAccess.Wrapper;
